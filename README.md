@@ -33,7 +33,7 @@ npm start
 ## Props utilizadas en **<career-card>**
 
 | Propiedad     | Tipo   | Descripción                                                                 |
-|---------------|--------|------------------------------------------------------------------------ ----|
+|---------------|--------|-----------------------------------------------------------------------------|
 | `name`        | String | Nombre de la carrera                                                        |
 | `faculty`     | String | Facultad a la que pertenece                                                 |
 | `description` | String | Breve descripción del programa                                              |
