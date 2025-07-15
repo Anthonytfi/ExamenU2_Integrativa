@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ESPE – Carreras</title>
+    <script type="module" src="./src/components/career-card.js"></script>
+    <script type="module" src="./src/components/career-selector.js"></script>
+    <link rel="stylesheet" href="./src/styles/styles.css" />
+  </head>
+  <body>
+    <h1>Oferta Académica – Universidad de las Fuerzas Armadas ESPE</h1>
+
+    <div class="container">
+      <career-selector></career-selector>
+      <career-card id="card" cedulaDigit="9"></career-card>
+    </div>
+
+    <script>
+      document.querySelector('career-selector').addEventListener('career-selected', (e) => {
+        const card = document.getElementById('card');
+        const { name, faculty, description, img } = e.detail;
+
+        card.name = name;
+        card.faculty = faculty;
+        card.description = description;
+        card.img = img;
+      });
+    </script>
+  </body>
+</html>
