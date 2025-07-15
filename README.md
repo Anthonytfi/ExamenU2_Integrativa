@@ -1,7 +1,9 @@
 # Examen Integrativo Unidad 2 – ESPE
 
-**Autor:** ANTHONY  
+**Autor:** Anthony Mejia
+
 **Materia:** Programacion Integrativa 
+
 **Institución:** Universidad de las Fuerzas Armadas ESPE  
 
 ---
