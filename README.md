@@ -1,7 +1,7 @@
 # Examen Integrativo Unidad 2 – ESPE
 
 **Autor:** ANTHONY  
-**Materia:** Aplicaciones Web  
+**Materia:** Programacion Integrativa 
 **Institución:** Universidad de las Fuerzas Armadas ESPE  
 
 ---
